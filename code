@@ -20,6 +20,7 @@ async def joined_at(ctx, member: discord.Member = None):
         member = ctx.message.author
     await bot.say('{0} joined at {0.joined_at}'.format(member))
    
+   #or  await bot.say('%s joined at' % member)
    
    bot.run('Token')
    
